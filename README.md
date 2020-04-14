@@ -1,6 +1,5 @@
 # DataViz
 
-Installer les packages manquant via pip install -r requirements.txt
+Installer les packages manquant via pip install -r requirements.txt.
 
-Exécutez la commande py index.py
-
+Exécutez la commande py index.py.
