@@ -680,7 +680,7 @@ sous_header = dbc.Row(
             dbc.Card(
                 dbc.CardBody(
                     [
-                        html.Img(src='../assets/png/'+top3.index[0].replace(' ','-') +'.png',width="60px",height="54px"),
+                        html.Img(src='../assets/png/'+top3.index[0].replace(' ','-').lower() +'.png',width="60px",height="54px"),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -732,7 +732,7 @@ sous_header = dbc.Row(
             dbc.Card(
                 dbc.CardBody(
                     [
-                        html.Img(src='../assets/png/'+top3.index[1].replace(' ','-') +'.png',width="60px",height="54px"),
+                        html.Img(src='../assets/png/'+top3.index[1].replace(' ','-').lower() +'.png',width="60px",height="54px"),
                         dbc.Row(
                             [
                                 dbc.Table(
@@ -784,7 +784,7 @@ sous_header = dbc.Row(
             dbc.Card(
                 dbc.CardBody(
                     [
-                        html.Img(src='../assets/png/'+top3.index[2].replace(' ','-') +'.png',width="60px",height="54px"),
+                        html.Img(src='../assets/png/'+top3.index[2].replace(' ','-').lower() +'.png',width="60px",height="54px"),
                         dbc.Row(
                             [
                                 dbc.Table(
